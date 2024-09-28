@@ -89,4 +89,11 @@
         *{
         font-size: xx-small;
     }
+        .soc{
+        margin: 10px;
+        padding: 5px;
+    }
+    .follow img{
+        width: 25px;
+    }
 }
