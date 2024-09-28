@@ -60,3 +60,30 @@ h5{
     border-color: aliceblue; 
     color: #e62908;
 }
+@media  (max-width:600px) {
+    .product img{
+    width: 100px;
+    height: 100px;
+    }
+    .product div{
+        font-size: xx-small;
+        font-weight: 600;
+    }
+    .main{
+        margin: 10px;
+        padding: 0 ;
+    }
+    h5{
+        font-size: xx-small;
+    }
+    .nav1{
+        float: right;
+        margin: 10px;
+        font-size: x-small;
+        text-decoration: none;
+        color: aliceblue;
+        border-width: 0 0 3px 0;
+        border-style: solid;
+        border-color: #e62908;
+    }
+}
