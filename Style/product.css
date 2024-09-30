@@ -60,7 +60,26 @@ h5{
     border-color: aliceblue; 
     color: #e62908;
 }
+.add{
+    font-family: sans-serif;
+    font-size: small;
+    background-color: darkred;
+    border: 2px solid red;
+    padding: 0 40px;
+    border-radius: 5px;
+}
+.add:hover{
+    
+    background-color: rgb(237, 7, 7);
+    border: 2px solid rgb(48, 1, 1);
+    margin: 1px;
+}
 @media  (max-width:600px) {
+    .add{
+        font-size: xx-small;
+        padding: 0 15px;
+        border-radius: 4px;
+    }
     .product img{
     width: 100px;
     height: 100px;
